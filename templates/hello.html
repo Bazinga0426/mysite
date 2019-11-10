@@ -1,0 +1,16 @@
+
+{#base.html#}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<h1>{{ hello }}</h1>
+    <p>Django Test</p>
+    {% block mainbody %}
+       <p>original</p>
+    {% endblock %}
+</body>
+</html>
